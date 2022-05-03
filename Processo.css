@@ -1,0 +1,63 @@
+/* (A) ENTIRE PAGE */
+body {
+  background-color: black;
+}
+
+/* (D) RESPONSIVE */
+@media screen and (max-width: 640px) {
+  #cart-products {
+    grid-template-columns: 100%;
+  }
+}
+
+ /* The navigation bar */
+ .navbar {
+  overflow: hidden;
+  /*background-color: #333; */
+  position: absolute; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 50%;
+  transform: translatex(-50%);
+  width: 70%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  color: blue;
+}
+
+/* Main content */
+.main {
+  margin-top: 150px; /* Add a top margin to avoid content overlay */
+} 
+
+.ex2 {
+  color: aliceblue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+p {
+  line-height: 1.7em;
+  display:block;
+  margin-left: 10%;
+  text-align: left;
+  color: black;
+}
